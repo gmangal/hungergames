@@ -140,4 +140,60 @@ class AverageHunter(BasePlayer):
                     ):
         avg_rep = sum(player_reputations) / float(len(player_reputations))
         return ['h' if random.random() < avg_rep else 's' for rep in player_reputations]
+
+class CommunityMan(BasePlayer):
+    def __init__(self):
+        self.name = "CommunityMan"
+    
+    def hunt_choices(
+                     self,
+                     round_number,
+                     current_food,
+                     current_reputation,
+                     m,
+                     player_reputations,
+                     ):
+        hunt_decisions = list()
+        numPlayers = len(hunt_decisions)
+            
+        for reputation in player_reputations:
+        # hunt if enemy hunts relatively frequently
+            if reputation > .25:
+                hunt_decisions.append('h')
+            else:
+                hunt_decisions.append('s')            
+        return hunt_decisions
+
+class GoWithTheFlow(BasePlayer):
+    def __init__(self):
+        self.name = "GoWithTheFlow"
+    
+    def hunt_choices(
+                     self,
+                     round_number,
+                     current_food,
+                     current_reputation,
+                     m,
+                     player_reputations,
+                     ):
+        hunt_decisions = list()
+        numPlayers = len(hunt_decisions)
+        
+
+        for reputation in player_reputations:
+            # hunt if enemy hunts relatively frequently
+            if reputation > .25:
+                hunt_decisions.append('h')
+            else:
+                # hunt if more than half the players need to hunt to receive
+                # the communal food prize
+                '''if m > ((numPlayers*(numPlayers - 1))/4):
+                    hunt_decisions.append('h')
+                    else:
+                    hunt_decisions.append('s')'''
+                hunt_decisions.append('s')
+        
+        return hunt_decisions
+
+
         
