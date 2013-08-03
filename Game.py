@@ -175,5 +175,12 @@ class Game(object):
                     print ("The winner is: ", survivors[0].player)
                     print ("Multiple survivors:")
                     print (survivors)
+                text_file = open("results.txt", "a")
+                text_file.write("\nFinishing Round: " + str(self.round))
+                rankings = "\nThe Rankings Are: "
+                for i in range(0,5):
+                    rankings += str(self.players[i])
+                text_file.write(rankings)
+                text_file.close()
                 break
         

@@ -187,11 +187,10 @@ class GoWithTheFlow(BasePlayer):
             else:
                 # hunt if more than half the players need to hunt to receive
                 # the communal food prize
-                '''if m > ((numPlayers*(numPlayers - 1))/4):
+                if m > ((numPlayers*(numPlayers - 1))/4):
                     hunt_decisions.append('h')
-                    else:
-                    hunt_decisions.append('s')'''
-                hunt_decisions.append('s')
+                else:
+                    hunt_decisions.append('s')
         
         return hunt_decisions
 

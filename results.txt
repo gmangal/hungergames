@@ -1,0 +1,5 @@
+
+Finishing Round: 1078
+Finishing Round: 968
+Finishing Round: 598
+The Rankings Are: Player Alternator now has 12058 food and a reputation of 0.500Player <Player.Player instance at 0x108863ef0> now has 4064 food and a reputation of 0.518Player BoundedHunter0.2-0.7 now has 3101 food and a reputation of 0.483Player FairHunter now has 5678 food and a reputation of 0.290Player AverageHunter now has 6392 food and a reputation of 0.292
