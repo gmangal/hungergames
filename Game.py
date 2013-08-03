@@ -178,7 +178,10 @@ class Game(object):
                 text_file = open("results.txt", "a")
                 text_file.write("\nFinishing Round: " + str(self.round))
                 rankings = "\nThe Rankings Are: "
-                for i in range(0,5):
+                numPlayersWritten = 5
+                if(len(self.players) < 5):
+                    numPlayersWritten = 1
+                for i in range(0,numPlayersWritten):
                     rankings += str(self.players[i])
                 text_file.write(rankings)
                 text_file.close()
