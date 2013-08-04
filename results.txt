@@ -94,3 +94,11 @@ Player BoundedHunter0.2-0.6 now has 23662 food and a reputation of 0.564
 Player FairHunter now has 22732 food and a reputation of 0.475
 Player AverageHunter now has 22233 food and a reputation of 0.475
 Player BoundedHunter0.3-0.6 now has 21191 food and a reputation of 0.457
+
+Finishing Round: 766
+The Rankings Are:
+Player Alternator now has 40155 food and a reputation of 0.500
+Player FairHunter now has 35115 food and a reputation of 0.471
+Player BoundedHunter0.2-0.8 now has 33929 food and a reputation of 0.456
+Player BoundedHunter0.2-0.7 now has 32335 food and a reputation of 0.450
+Player CommunityMan now has 30759 food and a reputation of 0.630
