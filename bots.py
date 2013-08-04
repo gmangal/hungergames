@@ -194,5 +194,32 @@ class GoWithTheFlow(BasePlayer):
         
         return hunt_decisions
 
+class HuntUntilLosingFood(BasePlayer):
+    def __init__(self, threshold):
+        self.name = "HuntUntilLosingFood - " + str(threshold)
+        self.threshold = threshold
+        self.startingFood = 0
 
+    def hunt_choices(
+                     self,
+                     round_number,
+                     current_food,
+                     current_reputation,
+                     m,
+                     player_reputations,
+                     ):
+        if round_number == 1:
+            self.startingFood = current_food
+
+        percentFoodLeft = float(current_food) / self.startingFood
+
+        hunt_decisions = list()
+        
+        for reputation in player_reputations:
+            if percentFoodLeft < self.threshold:
+                hunt_decisions.append('s')
+            else:
+                hunt_decisions.append('h')
+        
+        return hunt_decisions
         
