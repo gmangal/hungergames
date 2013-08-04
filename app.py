@@ -14,8 +14,13 @@ if __name__ == '__main__':
             BoundedHunter(.2, .8), BoundedHunter(.3,.8),  BoundedHunter(.4, .8),
             BoundedHunter(.5,.8),  BoundedHunter(.2, .6), BoundedHunter(.3,.6),
             BoundedHunter(.4, .6), HuntUntilLosingFood(.5)]
-    game = Game(players)
+
+    # number of games to play
     gamesToPlay = 1
     if len(sys.argv) > 1:
         gamesToPlay = sys.argv[1]
-    game.play_game(gamesToPlay)
+
+    # create new instance of Game for each game to play
+    for i in range(0, gameToPlay):
+        game = Game(players)
+        game.play_game()
