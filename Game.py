@@ -162,7 +162,7 @@ class Game(object):
         '''
         
         print ("Playing the game to the end:")
-    
+        
         while True:
             try:
                 self.play_round()

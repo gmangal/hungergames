@@ -18,9 +18,9 @@ if __name__ == '__main__':
     # number of games to play
     gamesToPlay = 1
     if len(sys.argv) > 1:
-        gamesToPlay = sys.argv[1]
+        gamesToPlay = int(sys.argv[1])
 
     # create new instance of Game for each game to play
-    for i in range(0, gameToPlay):
+    for i in range(0, gamesToPlay):
         game = Game(players)
         game.play_game()
