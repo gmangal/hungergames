@@ -18,4 +18,6 @@ if __name__ == '__main__':
     gamesToPlay = 1
     if len(sys.argv) > 1:
         gamesToPlay = sys.argv[1]
-    game.play_game(gamesToPlay)
+    numGamesPlayed = int(gamesToPlay)
+    for i in range (0, numGamesPlayed):
+        game.play_game()

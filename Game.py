@@ -155,39 +155,36 @@ class Game(object):
         return (self.P < 2) or (self.round > self.max_rounds)
         
         
-    def play_game(self, numGamesPlayed):
+    def play_game(self):
         '''
         Preferred way to run the game to completion
         Written this way so that I can step through rounds one at a time
         '''
-        numGamesPlayed = int(numGamesPlayed)
-        for i in range (0, numGamesPlayed):
+        print ("Playing the game to the end:")
         
-            print ("Playing the game to the end:")
-        
-            while True:
-                try:
-                    self.play_round()
-                except StopIteration:
-                    if len(self.players) <= 0:
-                        print ("Everyone starved")
-                    elif (len(self.players) == 1):
-                        print ("The winner is: ", self.players[0].player)
-                    else:
-                        survivors = sorted(self.players, key=lambda player: player.food, reverse=True)
-                        print ("The winner is: ", survivors[0].player)
-                        print ("Multiple survivors:")
-                        print (survivors)
-                    text_file = open("results.txt", "a")
-                    text_file.write("\nFinishing Round: " + str(self.round))
-                    rankings = "\nThe Rankings Are:\n"
-                    numPlayersWritten = 5
-                    if(len(survivors) < 5):
-                        numPlayersWritten = len(survivors)
-                    for i in range(0,numPlayersWritten):
-                        rankings += str(survivors[i])
-                        rankings += "\n"
-                    text_file.write(rankings)
-                    text_file.close()
-                    break
+        while True:
+            try:
+                self.play_round()
+            except StopIteration:
+                if len(self.players) <= 0:
+                    print ("Everyone starved")
+                elif (len(self.players) == 1):
+                    print ("The winner is: ", self.players[0].player)
+                else:
+                    survivors = sorted(self.players, key=lambda player: player.food, reverse=True)
+                    print ("The winner is: ", survivors[0].player)
+                    print ("Multiple survivors:")
+                    print (survivors)
+                text_file = open("results.txt", "a")
+                text_file.write("\nFinishing Round: " + str(self.round))
+                rankings = "\nThe Rankings Are:\n"
+                numPlayersWritten = 5
+                if(len(survivors) < 5):
+                    numPlayersWritten = len(survivors)
+                for i in range(0,numPlayersWritten):
+                    rankings += str(survivors[i])
+                    rankings += "\n"
+                text_file.write(rankings)
+                text_file.close()
+                break
         
