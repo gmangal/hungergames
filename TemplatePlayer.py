@@ -27,7 +27,7 @@ class Player:
         The main routine that plays each individual round.
 
         You must create an array of variables 'hunt_decisions' and assign an 
-        'h' for hunt or an 's' for slock (i.e., not hunt) to each member of 
+        'h' for hunt or an 's' for slack (i.e., not hunt) to each member of 
         the array; the order of the hunt decisions in hunt_decisions should 
         correspond to the order of opponents' reputations in 
         player_reputations.
