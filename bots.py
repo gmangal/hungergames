@@ -142,6 +142,7 @@ class AverageHunter(BasePlayer):
         return ['h' if random.random() < avg_rep else 's' for rep in player_reputations]
 
 class CommunityMan(BasePlayer):
+    # tries to activate the communal food prize
     def __init__(self):
         self.name = "CommunityMan"
     
@@ -165,6 +166,7 @@ class CommunityMan(BasePlayer):
         return hunt_decisions
 
 class GoWithTheFlow(BasePlayer):
+    # tries to do what other players are doing
     def __init__(self):
         self.name = "GoWithTheFlow"
     
@@ -195,6 +197,8 @@ class GoWithTheFlow(BasePlayer):
         return hunt_decisions
 
 class HuntUntilLosingFood(BasePlayer):
+    # hunts as long as food stock remains above certain percentage of 
+    # original food stock
     def __init__(self, threshold):
         self.name = "HuntUntilLosingFood - " + str(threshold)
         self.threshold = threshold
@@ -229,11 +233,12 @@ class HuntUntilLosingFood(BasePlayer):
         
         return hunt_decisions
 
-class AggregateReturnsPerRound(BasePlayer):
+class AggregateReturnsPerRoundHunter(BasePlayer):
     # player that adjusts threshold for hunting based on aggreate 
     # results of each action for the previous round
+    # raises upper bound if hunt earnings are greater than slack earnings
     def __init__(self,lower,upper):
-        self.name = "AggregateReturnsPerRound"
+        self.name = "AggregateReturnsPerRoundHunter"
         # thresholds, if partner rep is between these (inclusive), then hunt
         self.low = lower
         self.up = upper
@@ -253,7 +258,7 @@ class AggregateReturnsPerRound(BasePlayer):
                     player_reputations,
                     ):
         for rep in player_reputations:
-            if self.low <= rep <= self.up:
+            if self.low <= rep and rep <= self.up:
                 self.hunt_decisions.append('h')
             else:
                 self.hunt_decisions.append('s')
@@ -287,11 +292,72 @@ class AggregateReturnsPerRound(BasePlayer):
             if (self.up - self.low) > .1:
                 self.up -= 0.1
 
-class AggregateReturnsTotal(BasePlayer):
+class AggregateReturnsPerRoundSlacker(BasePlayer):
     # player that adjusts threshold for hunting based on aggreate 
     # results of each action for the previous round
+    # lowers upper bound if hunter earnings are greater than slack earnings
     def __init__(self,lower,upper):
-        self.name = "AggregateReturnsTotal"
+        self.name = "AggregateReturnsPerRoundSlacker"
+        # thresholds, if partner rep is between these (inclusive), then hunt
+        self.low = lower
+        self.up = upper
+        # last round's decisions
+        self.hunt_decisions = list()
+        # total earnings from hunting in the past round
+        self.huntEarnings = 0
+        # total earnings from slacking in the past round
+        self.slackEarnings = 0
+
+    def hunt_choices(
+                    self,
+                    round_number,
+                    current_food,
+                    current_reputation,
+                    m,
+                    player_reputations,
+                    ):
+        for rep in player_reputations:
+            if self.low <= rep and rep <= self.up:
+                self.hunt_decisions.append('h')
+            else:
+                self.hunt_decisions.append('s')
+
+        return self.hunt_decisions
+
+    def hunt_outcomes(self, food_earnings):
+
+        self.huntEarnings = 0
+        # total earnings from slacking
+        self.slackEarnings = 0
+
+        for i in range(0, len(food_earnings)):
+            if self.hunt_decisions[i] == 'h':
+                self.huntEarnings += food_earnings[i]
+            else:
+                self.slackEarnings += food_earnings[i]
+
+    def round_end(self, award, m, number_hunters):
+        # communal award can be considered earnings from hunting, since 
+        # it signals that a fair number of players are hunting
+        self.huntEarnings += award
+
+        # if earnings from hunting are greater than earnings from slacking, 
+        # that means more people are probably hunting. In that case, 
+        # constrict threshold so that we hunt less often
+        if self.huntEarnings > self.slackEarnings:
+            if self.up < 1.0:
+                self.up -= 0.1
+        else:
+            if (self.up - self.low) > .1:
+                self.up += 0.1
+
+class AggregateReturnsTotalHunter(BasePlayer):
+    # player that adjusts threshold for hunting based on aggreate 
+    # results of each action for the previous round
+    # raises upper bound if earnings from hunt are greater than 
+    # earnings from slack
+    def __init__(self,lower,upper):
+        self.name = "AggregateReturnsTotalHunter"
         # thresholds, if partner rep is between these (inclusive) then hunt
         self.low = lower
         self.up = upper
@@ -341,5 +407,58 @@ class AggregateReturnsTotal(BasePlayer):
             if (self.up - self.low) > .1:
                 self.up -= 0.1
 
+class AggregateReturnsTotalSlacker(BasePlayer):
+    # player that adjusts threshold for hunting based on aggreate 
+    # results of each action for the previous round
+    # lowers upper bound if earnings from hunt are greater than 
+    # earnings from slack
+    def __init__(self,lower,upper):
+        self.name = "AggregateReturnsTotalSlacker"
+        # thresholds, if partner rep is between these (inclusive) then hunt
+        self.low = lower
+        self.up = upper
+        # decisions of previous round
+        self.hunt_decisions = list()
+        # total returns from hunting over entire game
+        self.huntEarnings = 0
+        # total returns from slacking over entire game
+        self.slackEarnings = 0
 
+    def hunt_choices(
+                    self,
+                    round_number,
+                    current_food,
+                    current_reputation,
+                    m,
+                    player_reputations,
+                    ):
+        for rep in player_reputations:
+            if self.low <= rep <= self.up:
+                self.hunt_decisions.append('h')
+            else:
+                self.hunt_decisions.append('s')
 
+        return self.hunt_decisions
+
+    def hunt_outcomes(self, food_earnings):
+
+        for i in range(0, len(food_earnings)):
+            if self.hunt_decisions[i] == 'h':
+                self.huntEarnings += food_earnings[i]
+            else:
+                self.slackEarnings += food_earnings[i]
+
+    def round_end(self, award, m, number_hunters):
+        # communal award can be considered earnings from hunting, since 
+        # it signals that a fair number of players are hunting
+        self.huntEarnings += award
+
+        # if earnings from hunting are greater than earnings from slacking, 
+        # that means more people are probably hunting. In that case, 
+        # constrict threshold so that we hunt less often
+        if self.huntEarnings > self.slackEarnings:
+            if self.up < 1.0:
+                self.up -= 0.1
+        else:
+            if (self.up - self.low) > .1:
+                self.up += 0.1
