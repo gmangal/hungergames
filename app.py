@@ -14,11 +14,15 @@ if __name__ == '__main__':
             BoundedHunter(.2, .8), BoundedHunter(.3,.8),  BoundedHunter(.4, .8),
             BoundedHunter(.5,.8),  BoundedHunter(.2, .6), BoundedHunter(.3,.6),
             BoundedHunter(.4, .6), HuntUntilLosingFood(.5),
-            AggregateReturnsPerRoundHunter(.2, .6), 
+            # AggregateReturnsPerRoundHunter(.2, .6), 
             AggregateReturnsPerRoundSlacker(.2, .6), 
-            AggregateReturnsTotalHunter(.2, .6),
+            # AggregateReturnsTotalHunter(.2, .6),
             AggregateReturnsTotalSlacker(.2, .6),
-            Freeloader(), Freeloader(), Freeloader()]
+            Freeloader(), Freeloader(), Freeloader(), 
+            Random(.3), Random(.4), Random(.5), Random(.6), Random(.7), 
+            Random(.41), Random(.42), Random(.43), Random(.44), Random(.45), 
+            Random(.46), Random(.47), Random(.48), Random(.49), 
+            Random(.35), Random(.36), Random(.37), Random(.38), Random(.39)]
 
     # number of games to play
     gamesToPlay = 1

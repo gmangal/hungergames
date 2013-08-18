@@ -30,3 +30,83 @@ Player AggregateReturnsPerRoundHunter now has 24771 food and a reputation of 93.
 Player AggregateReturnsTotalHunter now has 24657 food and a reputation of 93.018
 Player <Player.Player instance at 0x1004ba050> now has 23459 food and a reputation of 0.327
 Player CommunityMan now has 23408 food and a reputation of 0.327
+
+Finishing Round: 810
+The Rankings Are:
+Player Alternator now has 47011 food and a reputation of 0.500
+Player Random0.4 now has 44708 food and a reputation of 0.402
+Player BoundedHunter0.2-0.8 now has 43391 food and a reputation of 0.528
+Player FairHunter now has 42395 food and a reputation of 0.443
+Player Random0.5 now has 42101 food and a reputation of 0.498
+
+Finishing Round: 642
+The Rankings Are:
+Player Alternator now has 39279 food and a reputation of 0.500
+Player BoundedHunter0.2-0.7 now has 36657 food and a reputation of 0.548
+Player FairHunter now has 35541 food and a reputation of 0.465
+Player AggregateReturnsTotalSlacker now has 35391 food and a reputation of 0.293
+Player Random0.5 now has 35324 food and a reputation of 0.499
+
+Finishing Round: 459
+The Rankings Are:
+Player AggregateReturnsTotalSlacker now has 44525 food and a reputation of 0.463
+Player AggregateReturnsPerRoundSlacker now has 44456 food and a reputation of 0.463
+Player Alternator now has 36933 food and a reputation of 0.500
+Player Random0.42 now has 36186 food and a reputation of 0.417
+Player Random0.41 now has 36001 food and a reputation of 0.412
+
+Finishing Round: 715
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker now has 66932 food and a reputation of 0.580
+Player AggregateReturnsTotalSlacker now has 66740 food and a reputation of 0.580
+Player Alternator now has 50524 food and a reputation of 0.500
+Player Random0.41 now has 49219 food and a reputation of 0.404
+Player FairHunter now has 48703 food and a reputation of 0.520
+
+Finishing Round: 339
+The Rankings Are:
+Player AggregateReturnsTotalSlacker now has 36199 food and a reputation of 0.462
+Player AggregateReturnsPerRoundSlacker now has 35929 food and a reputation of 0.462
+Player Alternator now has 30605 food and a reputation of 0.500
+Player Random0.42 now has 29823 food and a reputation of 0.418
+Player Random0.41 now has 29690 food and a reputation of 0.408
+
+Finishing Round: 1069
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker now has 24624 food and a reputation of 0.729
+Player AggregateReturnsTotalSlacker now has 24285 food and a reputation of 0.729
+Player Alternator now has 13214 food and a reputation of 0.500
+Player Random0.41 now has 10137 food and a reputation of 0.412
+Player Random0.42 now has 9910 food and a reputation of 0.418
+
+Finishing Round: 577
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker now has 24417 food and a reputation of 0.662
+Player AggregateReturnsTotalSlacker now has 24306 food and a reputation of 0.662
+Player Alternator now has 16768 food and a reputation of 0.500
+Player Random0.4 now has 15661 food and a reputation of 0.402
+Player Random0.41 now has 15423 food and a reputation of 0.408
+
+Finishing Round: 360
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker now has 16569 food and a reputation of 0.768
+Player AggregateReturnsTotalSlacker now has 16371 food and a reputation of 0.768
+Player Alternator now has 14817 food and a reputation of 0.500
+Player Random0.39 now has 14056 food and a reputation of 0.402
+Player Random0.4 now has 13904 food and a reputation of 0.401
+
+Finishing Round: 1037
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker now has 11390 food and a reputation of 0.917
+Player AggregateReturnsTotalSlacker now has 11315 food and a reputation of 0.917
+Player Alternator now has 9182 food and a reputation of 0.500
+Player Random0.42 now has 7706 food and a reputation of 0.421
+Player Random0.4 now has 7504 food and a reputation of 0.403
+
+Finishing Round: 402
+The Rankings Are:
+Player AggregateReturnsTotalSlacker now has 19901 food and a reputation of 0.722
+Player AggregateReturnsPerRoundSlacker now has 19583 food and a reputation of 0.722
+Player Random0.5 now has 17267 food and a reputation of 0.503
+Player Alternator now has 17229 food and a reputation of 0.500
+Player Random0.42 now has 16466 food and a reputation of 0.419

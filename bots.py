@@ -345,10 +345,10 @@ class AggregateReturnsPerRoundSlacker(BasePlayer):
         # that means more people are probably hunting. In that case, 
         # constrict threshold so that we hunt less often
         if self.huntEarnings > self.slackEarnings:
-            if self.up < 1.0:
+            if self.up > 0.2:
                 self.up -= 0.1
         else:
-            if (self.up - self.low) > .1:
+            if (self.up - self.low) < 1.0:
                 self.up += 0.1
 
 class AggregateReturnsTotalHunter(BasePlayer):
@@ -457,8 +457,8 @@ class AggregateReturnsTotalSlacker(BasePlayer):
         # that means more people are probably hunting. In that case, 
         # constrict threshold so that we hunt less often
         if self.huntEarnings > self.slackEarnings:
-            if self.up < 1.0:
+            if self.up > 0.2:
                 self.up -= 0.1
         else:
-            if (self.up - self.low) > .1:
+            if (self.up - self.low) < 1.0:
                 self.up += 0.1
