@@ -70,3 +70,27 @@ Player AggregateReturnsPerRoundSlacker0.24-0.6 now has 6657 food and a reputatio
 Player AggregateReturnsTotalSlacker0.2-0.6 now has 6621 food and a reputation of 0.754
 Player AggregateReturnsTotalSlacker0.24-0.6 now has 6609 food and a reputation of 0.700
 Player AggregateReturnsTotalSlacker0.22-0.6 now has 6591 food and a reputation of 0.700
+
+Finishing Round: 385
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker0.2-0.6 now has 8491 food and a reputation of 0.408
+Player AggregateReturnsTotalSlacker0.2-0.6 now has 8434 food and a reputation of 0.408
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 8353 food and a reputation of 0.368
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 8272 food and a reputation of 0.368
+Player AggregateReturnsTotalSlacker0.22-0.6 now has 8200 food and a reputation of 0.342
+
+Finishing Round: 903
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker0.24-0.7 now has 11920 food and a reputation of 0.957
+Player AggregateReturnsPerRoundSlacker0.23-0.7 now has 11638 food and a reputation of 0.957
+Player AggregateReturnsPerRoundSlacker0.22-0.7 now has 9709 food and a reputation of 1.056
+Player AggregateReturnsPerRoundSlacker0.21-0.7 now has 9385 food and a reputation of 1.116
+Player AggregateReturnsTotalSlacker0.2-0.6 now has 6943 food and a reputation of 0.658
+
+Finishing Round: 2491
+The Rankings Are:
+Player AggregateReturnsPerRoundSlacker0.23-0.7 now has 11524 food and a reputation of 1.311
+Player AggregateReturnsPerRoundSlacker0.24-0.7 now has 11320 food and a reputation of 1.283
+Player AggregateReturnsPerRoundSlacker0.22-0.7 now has 10570 food and a reputation of 1.420
+Player AggregateReturnsPerRoundSlacker0.21-0.7 now has 9160 food and a reputation of 1.502
+Player AggregateReturnsTotalSlacker0.2-0.6 now has 6718 food and a reputation of 0.901
