@@ -1,144 +1,72 @@
 
-Finishing Round: 318
+Finishing Round: 373
 The Rankings Are:
-Player Alternator now has 20604 food and a reputation of 0.500
-Player CommunityMan now has 18507 food and a reputation of 0.531
-Player <Player.Player instance at 0x1004bae60> now has 18435 food and a reputation of 0.531
-Player FairHunter now has 17529 food and a reputation of 0.412
-Player AggregateReturnsTotal now has 16038 food and a reputation of 88.003
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 16058 food and a reputation of 0.414
+Player AggregateReturnsTotalSlacker0.22-0.6 now has 15941 food and a reputation of 0.414
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 15737 food and a reputation of 0.414
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 15728 food and a reputation of 0.414
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 15659 food and a reputation of 0.414
 
-Finishing Round: 449
+Finishing Round: 1307
 The Rankings Are:
-Player Alternator now has 26229 food and a reputation of 0.500
-Player <Player.Player instance at 0x1004bae18> now has 23707 food and a reputation of 0.505
-Player CommunityMan now has 23677 food and a reputation of 0.505
-Player FairHunter now has 20428 food and a reputation of 0.398
-Player AggregateReturnsTotalHunter now has 19737 food and a reputation of 108.282
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 11933 food and a reputation of 0.688
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 11909 food and a reputation of 0.688
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 11897 food and a reputation of 0.688
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 11813 food and a reputation of 0.688
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 11729 food and a reputation of 0.688
 
-Finishing Round: 897
+Finishing Round: 414
 The Rankings Are:
-Player Alternator now has 45199 food and a reputation of 0.500
-Player <Player.Player instance at 0x10054f098> now has 39773 food and a reputation of 0.405
-Player CommunityMan now has 39737 food and a reputation of 0.405
-Player FairHunter now has 34007 food and a reputation of 0.392
-Player AggregateReturnsTotalHunter now has 32806 food and a reputation of 206.545
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 18319 food and a reputation of 0.419
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 18292 food and a reputation of 0.419
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 18280 food and a reputation of 0.419
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 18181 food and a reputation of 0.419
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 18022 food and a reputation of 0.419
 
-Finishing Round: 593
+Finishing Round: 971
 The Rankings Are:
-Player Alternator now has 31641 food and a reputation of 0.500
-Player AggregateReturnsPerRoundHunter now has 24771 food and a reputation of 93.018
-Player AggregateReturnsTotalHunter now has 24657 food and a reputation of 93.018
-Player <Player.Player instance at 0x1004ba050> now has 23459 food and a reputation of 0.327
-Player CommunityMan now has 23408 food and a reputation of 0.327
+Player AggregateReturnsTotalSlacker0.22-0.6 now has 12494 food and a reputation of 0.595
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 12467 food and a reputation of 0.595
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 12455 food and a reputation of 0.595
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 12449 food and a reputation of 0.595
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 12335 food and a reputation of 0.595
 
-Finishing Round: 810
+Finishing Round: 350
 The Rankings Are:
-Player Alternator now has 47011 food and a reputation of 0.500
-Player Random0.4 now has 44708 food and a reputation of 0.402
-Player BoundedHunter0.2-0.8 now has 43391 food and a reputation of 0.528
-Player FairHunter now has 42395 food and a reputation of 0.443
-Player Random0.5 now has 42101 food and a reputation of 0.498
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 19587 food and a reputation of 0.412
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 19575 food and a reputation of 0.412
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 19473 food and a reputation of 0.412
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 19407 food and a reputation of 0.412
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 19332 food and a reputation of 0.412
 
-Finishing Round: 642
+Finishing Round: 604
 The Rankings Are:
-Player Alternator now has 39279 food and a reputation of 0.500
-Player BoundedHunter0.2-0.7 now has 36657 food and a reputation of 0.548
-Player FairHunter now has 35541 food and a reputation of 0.465
-Player AggregateReturnsTotalSlacker now has 35391 food and a reputation of 0.293
-Player Random0.5 now has 35324 food and a reputation of 0.499
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 13591 food and a reputation of 0.479
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 13576 food and a reputation of 0.479
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 13555 food and a reputation of 0.479
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 13519 food and a reputation of 0.479
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 13420 food and a reputation of 0.479
 
-Finishing Round: 459
+Finishing Round: 765
 The Rankings Are:
-Player AggregateReturnsTotalSlacker now has 44525 food and a reputation of 0.463
-Player AggregateReturnsPerRoundSlacker now has 44456 food and a reputation of 0.463
-Player Alternator now has 36933 food and a reputation of 0.500
-Player Random0.42 now has 36186 food and a reputation of 0.417
-Player Random0.41 now has 36001 food and a reputation of 0.412
+Player AggregateReturnsTotalSlacker0.23-0.6 now has 13623 food and a reputation of 0.528
+Player AggregateReturnsPerRoundSlacker0.23-0.6 now has 13377 food and a reputation of 0.528
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 13356 food and a reputation of 0.528
+Player AggregateReturnsTotalSlacker0.22-0.6 now has 13275 food and a reputation of 0.528
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 13146 food and a reputation of 0.528
 
-Finishing Round: 715
+Finishing Round: 1039
 The Rankings Are:
-Player AggregateReturnsPerRoundSlacker now has 66932 food and a reputation of 0.580
-Player AggregateReturnsTotalSlacker now has 66740 food and a reputation of 0.580
-Player Alternator now has 50524 food and a reputation of 0.500
-Player Random0.41 now has 49219 food and a reputation of 0.404
-Player FairHunter now has 48703 food and a reputation of 0.520
+Player AggregateReturnsTotalSlacker0.2-0.6 now has 6423 food and a reputation of 0.616
+Player AggregateReturnsTotalSlacker0.21-0.6 now has 6327 food and a reputation of 0.616
+Player AggregateReturnsPerRoundSlacker0.2-0.6 now has 6240 food and a reputation of 0.616
+Player AggregateReturnsPerRoundSlacker0.21-0.6 now has 6189 food and a reputation of 0.616
+Player AggregateReturnsTotalSlacker0.29-0.6 now has 4260 food and a reputation of 0.567
 
-Finishing Round: 339
+Finishing Round: 1440
 The Rankings Are:
-Player AggregateReturnsTotalSlacker now has 36199 food and a reputation of 0.462
-Player AggregateReturnsPerRoundSlacker now has 35929 food and a reputation of 0.462
-Player Alternator now has 30605 food and a reputation of 0.500
-Player Random0.42 now has 29823 food and a reputation of 0.418
-Player Random0.41 now has 29690 food and a reputation of 0.408
-
-Finishing Round: 1069
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker now has 24624 food and a reputation of 0.729
-Player AggregateReturnsTotalSlacker now has 24285 food and a reputation of 0.729
-Player Alternator now has 13214 food and a reputation of 0.500
-Player Random0.41 now has 10137 food and a reputation of 0.412
-Player Random0.42 now has 9910 food and a reputation of 0.418
-
-Finishing Round: 577
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker now has 24417 food and a reputation of 0.662
-Player AggregateReturnsTotalSlacker now has 24306 food and a reputation of 0.662
-Player Alternator now has 16768 food and a reputation of 0.500
-Player Random0.4 now has 15661 food and a reputation of 0.402
-Player Random0.41 now has 15423 food and a reputation of 0.408
-
-Finishing Round: 360
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker now has 16569 food and a reputation of 0.768
-Player AggregateReturnsTotalSlacker now has 16371 food and a reputation of 0.768
-Player Alternator now has 14817 food and a reputation of 0.500
-Player Random0.39 now has 14056 food and a reputation of 0.402
-Player Random0.4 now has 13904 food and a reputation of 0.401
-
-Finishing Round: 1037
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker now has 11390 food and a reputation of 0.917
-Player AggregateReturnsTotalSlacker now has 11315 food and a reputation of 0.917
-Player Alternator now has 9182 food and a reputation of 0.500
-Player Random0.42 now has 7706 food and a reputation of 0.421
-Player Random0.4 now has 7504 food and a reputation of 0.403
-
-Finishing Round: 402
-The Rankings Are:
-Player AggregateReturnsTotalSlacker now has 19901 food and a reputation of 0.722
-Player AggregateReturnsPerRoundSlacker now has 19583 food and a reputation of 0.722
-Player Random0.5 now has 17267 food and a reputation of 0.503
-Player Alternator now has 17229 food and a reputation of 0.500
-Player Random0.42 now has 16466 food and a reputation of 0.419
-
-Finishing Round: 550
-The Rankings Are:
-Player AggregateReturnsTotalSlacker now has 17348 food and a reputation of 0.796
-Player AggregateReturnsPerRoundSlacker now has 16709 food and a reputation of 0.796
-Player Alternator now has 14779 food and a reputation of 0.500
-Player Random0.4 now has 13842 food and a reputation of 0.402
-Player Random0.42 now has 13302 food and a reputation of 0.422
-
-Finishing Round: 1284
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker0.3-0.6 now has 24320 food and a reputation of 0.551
-Player AggregateReturnsTotalSlacker0.3-0.6 now has 23450 food and a reputation of 0.551
-Player AggregateReturnsPerRoundSlacker0.2-0.6 now has 14192 food and a reputation of 1.023
-Player AggregateReturnsTotalSlacker0.2-0.6 now has 13859 food and a reputation of 1.023
-Player AggregateReturnsTotalSlacker0.4-0.6 now has 10379 food and a reputation of 0.368
-
-Finishing Round: 371
-The Rankings Are:
-Player AggregateReturnsTotalSlacker0.3-0.6 now has 17233 food and a reputation of 0.352
-Player AggregateReturnsPerRoundSlacker0.3-0.6 now has 17215 food and a reputation of 0.352
-Player AggregateReturnsTotalSlacker0.2-0.6 now has 16906 food and a reputation of 0.722
-Player AggregateReturnsPerRoundSlacker0.2-0.6 now has 16738 food and a reputation of 0.722
-Player Alternator now has 12910 food and a reputation of 0.500
-
-Finishing Round: 1098
-The Rankings Are:
-Player AggregateReturnsPerRoundSlacker0.3-0.6 now has 26141 food and a reputation of 0.506
-Player AggregateReturnsTotalSlacker0.3-0.6 now has 26069 food and a reputation of 0.506
-Player AggregateReturnsTotalSlacker0.2-0.6 now has 11126 food and a reputation of 0.919
-Player AggregateReturnsPerRoundSlacker0.2-0.6 now has 10742 food and a reputation of 0.919
-Player AggregateReturnsTotalSlacker0.1-0.6 now has 8498 food and a reputation of 1.447
+Player AggregateReturnsPerRoundSlacker0.22-0.6 now has 6750 food and a reputation of 0.700
+Player AggregateReturnsPerRoundSlacker0.24-0.6 now has 6657 food and a reputation of 0.700
+Player AggregateReturnsTotalSlacker0.2-0.6 now has 6621 food and a reputation of 0.754
+Player AggregateReturnsTotalSlacker0.24-0.6 now has 6609 food and a reputation of 0.700
+Player AggregateReturnsTotalSlacker0.22-0.6 now has 6591 food and a reputation of 0.700
