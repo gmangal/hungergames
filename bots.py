@@ -297,7 +297,7 @@ class AggregateReturnsPerRoundSlacker(BasePlayer):
     # results of each action for the previous round
     # lowers upper bound if hunter earnings are greater than slack earnings
     def __init__(self,lower,upper):
-        self.name = "AggregateReturnsPerRoundSlacker"
+        self.name = "AggregateReturnsPerRoundSlacker" + str(lower) + "-" + str(upper)
         # thresholds, if partner rep is between these (inclusive), then hunt
         self.low = lower
         self.up = upper
@@ -413,7 +413,7 @@ class AggregateReturnsTotalSlacker(BasePlayer):
     # lowers upper bound if earnings from hunt are greater than 
     # earnings from slack
     def __init__(self,lower,upper):
-        self.name = "AggregateReturnsTotalSlacker"
+        self.name = "AggregateReturnsTotalSlacker" + str(lower) + "-" + str(upper)
         # thresholds, if partner rep is between these (inclusive) then hunt
         self.low = lower
         self.up = upper
